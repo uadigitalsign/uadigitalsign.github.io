@@ -60,7 +60,7 @@ p {
 }
 
 .dark-bg p {
-color: #B1B1B1;	
+color: #B1B1B1;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -92,7 +92,7 @@ section {
 
 ul {
 	padding-left: 0;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 ul li {
@@ -199,7 +199,7 @@ section ul li:before {
 		-webkit-transition:all .3s;
 		-moz-transition:all .3s;
 		transition:all .3s;
-		margin-top: 10px;
+		margin-top: 20px;
 	    margin-left: 10px;
 	}
 	.navbar-default .navbar-nav>.active>a {
@@ -212,7 +212,7 @@ section ul li:before {
 	}
 	.navbar-default.navbar-shrink .navbar-brand {
 		font-size: 1.5em;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 }
 
@@ -235,7 +235,7 @@ header {
 	position: absolute;
 	left: 0;
 	top: 38%;
-	width: 100%;	
+	width: 100%;
 }
 
 .owl-slider .owl-controls .owl-nav [class*=owl-] {
@@ -287,6 +287,16 @@ header {
 	color: #fff;
 	font-weight: 100;
 	line-height: 40px;
+	text-shadow: 0 2px black;
+}
+
+.light {background: #ccc;}
+span {
+    color: white;
+    text-shadow: 0 1px black;
+    background: #333;
+    background: rgba(0,0,0,0.18);
+    padding: 4px 8px;
 }
 
 @media (min-width: 768px) {
@@ -304,6 +314,7 @@ header {
 	margin-bottom: 25px;
 	letter-spacing: -3px;
 	word-spacing: 10px;
+	text-shadow: 0 1px black;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
@@ -391,7 +402,7 @@ header {
 }
 .button-cta:hover {
 	color: #000;
-	background-color: #fff;	
+	background-color: #fff;
 	text-decoration: none;
 }
 
@@ -546,7 +557,7 @@ figure {
 	margin: 0 1px 1px 0;
 	background: #726FB9;
 	text-align: center;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 figcaption {
@@ -554,7 +565,7 @@ figcaption {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 
 .ot-portfolio-item figure figcaption > a {
@@ -662,7 +673,7 @@ figure.effect-bubba:hover p {
 }
 
 .dark-bg {
-	background-color: #333231;	
+	background-color: #333231;
 	color: #fff;
 }
 
@@ -695,7 +706,7 @@ figure.effect-bubba:hover p {
 	position: absolute;
 	left: 0;
 	top: 38%;
-	width: 100%;	
+	width: 100%;
 }
 
 .owl-portfolio .owl-controls .owl-nav [class*=owl-] {
@@ -768,8 +779,14 @@ figure.effect-bubba:hover p {
 
 .team-item {
 	text-align: center;
-	background-color: #fff;
 }
+
+.team-item2 {
+	text-align: center;
+	background-color: #fff;
+	margin-top: 30px;
+}
+
 
 .team-item h3 {
 	font-size: 16px;
@@ -851,7 +868,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: #000;
 }
 
 footer p {
@@ -879,12 +896,12 @@ footer p a span {
 --------------------*/
 
 .modal-content {
-	border-radius: 0;	
+	border-radius: 0;
 }
 .modal-header .close {
-	font-size: 30px;	
+	font-size: 30px;
 }
-.modal-title {	
+.modal-title {
 	text-transform: uppercase;
 	font-size: 23px;
 }
@@ -895,7 +912,7 @@ footer p a span {
 
 .modal-body p {
 	margin: 30px 20px;
-	color: #2D2D2D;		
+	color: #2D2D2D;
 }
 
 .modal-works {
@@ -965,6 +982,18 @@ color: #fff;
     padding: 17px 45px;
 }
 
+.btn-xlgren {
+color: #fff;
+    background-color: #118c0d;
+    /* border-color: #726FB9; */
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 17px 45px;
+}
 /* Back to top button
 ---------------------------------- */
 #back-top {
